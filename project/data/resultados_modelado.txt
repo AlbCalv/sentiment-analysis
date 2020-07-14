@@ -1,0 +1,89 @@
+Tiempo preprocesado 266.32 seg
+-----Hold Out 80/20 estratificado con conjunto test reservado
+Tiempo ajuste SVM: 116.36 seg
+Tiempo ajuste Random Forest: 611.84 seg
+Tiempo ajuste Regresión Logística: 1.25 seg
+
+---SVM----
+
+              precision    recall  f1-score   support
+
+        -1.0       0.79      0.87      0.83       738
+         1.0       0.93      0.87      0.90      1377
+
+    accuracy                           0.87      2115
+   macro avg       0.86      0.87      0.86      2115
+weighted avg       0.88      0.87      0.87      2115
+
+
+---Random Forest----
+
+              precision    recall  f1-score   support
+
+        -1.0       0.76      0.84      0.80       744
+         1.0       0.91      0.86      0.88      1371
+
+    accuracy                           0.85      2115
+   macro avg       0.84      0.85      0.84      2115
+weighted avg       0.86      0.85      0.85      2115
+
+
+---Regresión Logística----
+
+              precision    recall  f1-score   support
+
+        -1.0       0.81      0.86      0.84       762
+         1.0       0.92      0.88      0.90      1353
+
+    accuracy                           0.88      2115
+   macro avg       0.86      0.87      0.87      2115
+weighted avg       0.88      0.88      0.88      2115
+
+
+---Voto por Mayoría----
+
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.88      0.84       747
+         1.0       0.93      0.88      0.90      1368
+
+    accuracy                           0.88      2115
+   macro avg       0.86      0.88      0.87      2115
+weighted avg       0.88      0.88      0.88      2115
+
+----Validación cruzada estratificada de 10 folds
+Tiempo de construcción BoW: 0.4
+Tiempo iteración: 826.32
+Tiempo iteración: 833.34
+Tiempo iteración: 826.33
+Tiempo iteración: 823.62
+Tiempo iteración: 824.19
+Tiempo iteración: 829.21
+Tiempo iteración: 825.29
+Tiempo iteración: 827.04
+Tiempo iteración: 839.33
+Tiempo iteración: 833.31
+-----Tasa de aciertos-----
+SVM: 87.59
+Random Forest: 85.98
+Regresión Logística: 87.81
+Voto por mayoría: 88.14 
+
+-----Precission-----
+SVM: 87.96
+Random Forest: 86.5
+Regresión Logística: 88.0
+Voto por mayoría: 88.46 
+
+-----Recall-----
+SVM: 87.59
+Random Forest: 85.98
+Regresión Logística: 87.81
+Voto por mayoría: 88.14 
+
+-----F1 Weighted-----
+SVM: 87.69
+Random Forest: 86.12
+Regresión Logística: 87.87
+Voto por mayoría: 88.23 
+

@@ -1,0 +1,76 @@
+
+--------TAMAÑO CONJUNTOS DE DATOS-------
+
+Conjunto de tweets completo: 15000
+Conjunto de tweets no nulos: 13848
+Conjunto de tweets nulos: 1152
+
+--------ANÁLISIS DE COMPOSICIÓN DE LOS TWEETS--------
+
+------Conjunto Completo-----
+Número de elementos (sin preprocesamiento): 390955
+Número de elementos de media (sin preprocesamiento) 26.06
+Número de elementos (con preprocesamiento): 196271
+Número de elementos de media (con preprocesamiento) 13.08 
+
+------Conjunto Nonulos-----
+Número de elementos (sin preprocesamiento): 374433
+Número de elementos de media (sin preprocesamiento) 27.04
+Número de elementos (con preprocesamiento): 188735
+Número de elementos de media (con preprocesamiento) 13.63 
+
+------Conjunto Nulos-----
+Número de elementos (sin preprocesamiento): 16522
+Número de elementos de media (sin preprocesamiento) 14.34
+Número de elementos (con preprocesamiento): 7536
+Número de elementos de media (con preprocesamiento) 6.54 
+
+
+--------ANÁLISIS DE EMOJIS--------
+
+------Conjunto Completo-----
+Número de emojis encontrados: 7227.0
+Número de emojis en el léxico: 4963 ( 68.67 %)
+Número de tweets sin emojis: 12279 ( 81.86 %)
+Media de emojis en tweets con emojis: 2.66
+Número de tweets sin emojis en el léxico: 12673 ( 84.49 %)
+Media de emojis en tweets con emojis del léxico: 2.132788998710786 
+
+------Conjunto Nonulos-----
+Número de emojis encontrados: 7174.0
+Número de emojis en el léxico: 4963 ( 69.18 %)
+Número de tweets sin emojis: 11162 ( 80.6 %)
+Media de emojis en tweets con emojis: 2.67
+Número de tweets sin emojis en el léxico: 11521 ( 83.2 %)
+Media de emojis en tweets con emojis del léxico: 2.132788998710786 
+
+------Conjunto Nulos-----
+Número de emojis encontrados: 53.0
+Número de emojis en el léxico: 0 ( 0.0 %)
+Número de tweets sin emojis: 1117 ( 96.96 %)
+Media de emojis en tweets con emojis: 1.51
+Número de tweets sin emojis en el léxico: 1152 ( 100.0 %)
+Media de emojis en tweets con emojis del léxico: nan 
+
+
+--------ANÁLISIS DE TÉRMINOS (RAE)--------
+
+----Corpus 10000 formas----
+
+Formas RAE completo: 120427
+Porcentaje: 0.637031590529189
+Formas RAE nonulo: 116268
+Porcentaje: 0.6403798172515023
+Formas RAE nulo: 4159
+Porcentaje: 0.5557931310971536 
+
+----Corpus 77729 formas----
+
+Formas RAE completo: 154419
+Porcentaje: 0.8168415818539599
+Formas RAE nonulo: 148835
+Porcentaje: 0.8197520392595327
+Formas RAE nulo: 5584
+Porcentaje: 0.7462247761592944 
+
+Tiempo de ejecución: 4536.37 seg

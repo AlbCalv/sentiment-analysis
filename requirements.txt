@@ -1,0 +1,11 @@
+es_core_news_sm==2.2.5
+joblib==0.14.1
+nltk==3.5
+numpy==1.17.4
+matplotlib==3.2.2
+xlrd==1.2.0
+spacy==2.2.4
+pandas==0.25.3
+tweepy==3.8.0
+gensim==3.8.3
+scikit_learn==0.23.1

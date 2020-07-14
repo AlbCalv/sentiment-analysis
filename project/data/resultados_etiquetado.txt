@@ -1,0 +1,131 @@
+-------ETIQUETADO DE LOS DATOS------
+
+Tiempo cargado: 0.06 seg
+Tiempo preprocesado: 365.43 seg
+
+------LÉXICO DE EMOJIS-----
+
+Tiempo emojis 1: 10.7 seg
+
+------LÉXICO SPL-----
+
+Tiempo de cargado: 0.01 seg
+Tiempo emojis 2: 9.22 seg
+Tiempo cálculo términos positivos y negativos: 266.47 seg
+
+Términos positivos únicos encontrados: 770  de  1555 ( 49.52 %)
+Términos negativos únicos encontrados: 1086  de  2720 ( 39.93 %)
+Términos positivos totales encontrados: 20512
+Términos negativos totales encontrados: 18663
+Términos totales encontrados: 39175
+Número de tweets con 0 polaridad: 1664 
+
+Tiempo etiquetado: 1.48 seg
+
+--Etiquetado según léxico SPL--
+ 1.0    6535
+-1.0    4835
+ 0.0    3630
+Name: et_spl, dtype: int64
+
+------LÉXICO SENTICON-----
+
+Tiempo cargado: 4.48 seg
+Tiempo de cálculo de máximo término positivo y negativo: 279.39 seg
+Términos positivos únicos encontrados: 859  de  4356 ( 19.72 %)
+Términos negativos únicos encontrados: 679  de  4404 ( 15.42 %)
+Términos positivos totales encontrados: 11837
+Términos negativos totales encontrados: 5348
+Términos totales encontrados: 17185
+Número de tweets con 0 polaridad: 3579 
+
+Tiempo de etiquetado Senticon: 2.25 seg
+
+ 1.0    8568
+ 0.0    3579
+-1.0    2853
+Name: et_senticon, dtype: int64
+
+------LÉXICO ISOL-----
+
+Tiempo emojis isol: 6.62 seg
+Tiempo de cargado: 0.47 seg
+Tiempo de cálculo de términos positivo y negativo: 261.21 seg
+
+Términos positivos únicos encontrados: 484  de  2507 ( 19.31 %)
+Términos negativos únicos encontrados: 788  de  5622 ( 14.02 %)
+Términos positivos totales encontrados: 9783
+Términos negativos totales encontrados: 10667
+Términos totales encontrados: 20450
+Número de tweets con 0 polaridad: 3819 
+
+Tiempo de etiquetado ISOL: 1.4 seg
+
+ 1.0    5312
+ 0.0    5194
+-1.0    4494
+Name: et_isol, dtype: int64
+
+------LÉXICO CRISOL-----
+
+Tiempo cargado: 1.14 seg
+Tiempo cálculo máximo término positivo y negativo: 222.52 seg
+
+Términos positivos únicos encontrados: 342  de  1514 ( 22.59 %)
+Términos negativos únicos encontrados: 354  de  2916 ( 12.139999999999999 %)
+Términos positivos totales encontrados: 5261
+Términos negativos totales encontrados: 5127
+Términos totales encontrados: 10388
+Número de tweets con 0 polaridad: 6294 
+
+Tiempo de etiquetado CRISOL: 2.23 seg
+
+ 0.0    6294
+ 1.0    4843
+-1.0    3863
+Name: et_crisol, dtype: int64
+
+------ESTADÍSTICAS DE TÉRMINOS -----
+
+Palabras Totales
+SLP: 39175
+ML-SentiCon: 17185
+iSOL: 20450
+CRiSOL: 10388
+Total: 87198
+
+Palabras Positivas
+SLP: 20512
+ML-SentiCon: 11837
+iSOL: 9783
+CRiSOL: 5261
+Total: 47393
+
+Palabras Negativas
+SLP: 18663
+ML-SentiCon: 5348
+iSOL: 10667
+CRiSOL: 5127
+Total: 39805
+
+
+------ETIQUETADO FINAL-----
+
+Tiempo Etiquetado Final: 6.97 seg
+
+ 1.0    6493
+ 0.0    4427
+-1.0    4080
+Name: etiqueta, dtype: int64
+
+**Tiempo total del sistema: 1445.01 seg
+
+
+Tiempo eliminación neutros: 0.0 seg
+
+-----ARCHIVOS GENERADOS-----
+
+Datos etiquetados (con los neutros): ...data/tweet15k_etiq_neutro.csv
+Datos etiquetados (sin los neutros): ...data/tweet15k_etiq.csv
+Tweets no nulos: ...data/tweet15k_nonulos.csv
+Tweets nulos: ...data/tweet15k_nulos.csv

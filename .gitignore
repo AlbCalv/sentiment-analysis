@@ -1,0 +1,8 @@
+#Caché
+*.pyc
+#Archivo de contraseñas de API Twitter
+project/claves_twitter.py
+#Archivo referido al uso de Word2Vec
+project/main2.py
+#Archivo de fase experimental
+project/fase experimental/*
