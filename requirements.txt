@@ -1,7 +1,7 @@
 es_core_news_sm==2.2.5
 joblib==0.14.1
 nltk==3.5
-numpy==1.17.4
+numpy==1.22.0
 matplotlib==3.2.2
 xlrd==1.2.0
 spacy==2.2.4
