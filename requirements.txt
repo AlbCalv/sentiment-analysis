@@ -1,5 +1,5 @@
 es_core_news_sm==2.2.5
-joblib==0.14.1
+joblib==1.2.0
 nltk==3.5
 numpy==1.17.4
 matplotlib==3.2.2
